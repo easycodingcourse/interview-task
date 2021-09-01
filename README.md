@@ -6,6 +6,7 @@ Let’s assume we have a payment sub-system. This system is supposed to check wh
 
 
 **Input:** product code or product name, the user's ID and the invoice final amount..
+
 **Response**: If it includes the discount, the discount percentage that can be considered for the given invoice..
 
 
@@ -20,7 +21,7 @@ Let’s assume we have a payment sub-system. This system is supposed to check wh
 ### Make total 3 api
 1. login api with jwt token
 2. discountCheck api
-3. dummy-data api
+3. dummy-data api for auto generate all data with relation base.
 
 ### extra add
 * also add unit test with **mocha & chai**
